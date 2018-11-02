@@ -1,0 +1,411 @@
+/* CSS Reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* END OF CSS Reset */
+
+body {
+	background:url(../images/hip_square.png);
+}
+
+.add_button {
+	margin-top:50px;
+	margin-left:5px;
+	font-size:1.5em;
+	font-family: 'Mali', cursive;	
+	height:50px;
+	width:100px;
+	box-shadow: 3px 3px 3px 3px #888888;
+	border-radius:10px;
+}
+
+.add_button:hover {
+	box-shadow:5px 5px 5px 5px #888888;
+}
+
+.add_button:active {
+	background-color:#888888;
+	transform:translateY(4px);
+}
+
+.route_container {
+	height:100%;
+	width:67%;
+	background:url(../images/routedummy.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+i {
+	color:black;
+	margin-top:5px;
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    box-shadow:3px 3px;
+    display: inline-block;
+    padding: 10px;
+}
+
+i:hover {
+	color:white;
+	box-shadow:7px 7px;
+}
+
+.big_label {
+	margin-top:20px;
+	text-align:center;
+	font-family: 'Mali', cursive;
+	font-size:3em;
+}
+
+
+.left {
+
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.homepage_button_container {
+	margin:0 auto;
+	height:100%;
+	width:25%;
+	min-width:300px;
+}
+
+.signout_button {
+	font-family: 'Mali', cursive;
+	color:black;
+	font-size:2em;
+	padding:10px;
+}
+
+.signout_button:hover {
+	text-shadow:1px 1px;
+	color:black;
+}
+
+.homepage_button {
+	font-size:1.5em;
+	font-family: 'Mali', cursive;	
+	height:100px;
+	width:300px;
+	margin-top:25px;
+	box-shadow: 6px 10px #888888;
+	border-radius:10px;
+
+}
+
+.homepage_button:hover {
+	box-shadow:3px 3px 3px 3px;
+}
+
+.homepage_button:active {
+	background-color:#888888;
+	transform:translateY(4px);
+}
+
+.settings_wheel {
+	float:right;
+	height:50px;
+	width:50px;
+	background:url(../images/A4SettingsWheel.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.settings_wheel:hover {
+	box-shadow:5px 5px 5px 5px #888888;
+}
+
+.form_holder {
+	text-align:center;
+}
+
+.signin_submit {
+	font-family: 'Mali', cursive;
+	padding:30px;
+	font-size:2em;
+	border-radius:5%;
+}
+
+.signin_submit:hover {
+	box-shadow:2px 2px 2px 2px;
+}
+
+.signin_submit:active {
+	background-color:#888888;
+	transform:translateY(4px);
+
+}
+
+.signin_form {
+	margin:5px auto;
+	width:100%;
+}
+
+.signin_field {
+	width: 50%;
+	min-width:300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#logo_big {
+	height:65%;
+	width:361px;
+	background:url(../images/A4Logo.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+.logo_small {
+	height:100%;
+	width:100%;
+	background:url(../images/A4Logo.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+.welcome {
+	height:100%;
+	width:315px;
+	background:url(../images/A4Welcome.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+.banner_font {
+	font-size:5em;
+}
+
+.text_center {
+	text-align:center;
+}
+
+
+
+
+footer {
+	width:100%;
+	height:100px;
+}
+
+.nav_bar {
+	height:15%;
+}
+
+.small_two_of_three {
+	display:inline-block;
+	float:left;
+	width:15%;
+	height:100%;
+}
+
+.big_one_of_three {
+	display:inline-block;
+	float:left;
+	width:70%;
+	height:100%;
+}
+
+.holder {
+	width:100%;
+	height:70%;
+	padding:20px;
+}
+
+.bottom_buttons {
+	height:15%;
+}
+
+.credits {
+	height:100%;
+	width:515px;
+	margin:0 auto;
+	padding:40px;
+	text-align:center;
+}
+
+.inner_container {
+	height:100%;
+	width:50%;
+	min-width:1000px;
+	margin:auto;
+}
+
+.content_container {
+	position: absolute;
+	padding:2%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-width:1000px;
+	height: 50%;
+	min-height:700px;
+	margin: auto;
+	background:url(../images/school.png);
+	border:10px ridge;
+	border-radius: 2%;
+	box-shadow: 10px 20px #888888;
+}
+
+/* Folder Tabs */
+
+
+
+
+
+/* End of Folder Tabs */
+
+
+
+/* Responsive Design Break Points */
+
+@media only screen and (max-width: 1000px) {
+
+	.content_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-width:900px;
+	height: 58%;
+	min-height:700px;
+	margin: auto;
+	background-color: #ccc;
+	border-radius: 2%;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+
+	.content_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-width:800px;
+	height: 66%;
+	min-height:700px;
+	margin: auto;
+	background-color: #ccc;
+	border-radius: 2%;
+	}
+	
+}
+
+@media only screen and (max-width: 800px) {
+
+	.route_container {
+		width:100%;
+	}
+
+	.content_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-width:700px;
+	height: 74%;
+	min-height:700px;
+	margin: auto;
+	background-color: #ccc;
+	border-radius: 1%;
+	}
+	#logo_big {
+		width:60%;
+	}
+	i {
+		margin-top:15px;
+		margin-left:10px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+	.content_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-width:600px;
+	height: 82%;
+	min-height:700px;
+	margin: auto;
+	background-color: #ccc;
+	border-radius:1%;
+	}
+
+	.welcome {
+		margin-top:20px;
+		width:90%;
+	}
+
+	#logo_big {
+		width:70%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	footer {
+		display:none;
+	}
+
+	.big_label {
+		font-size:2em;
+	}
+
+	.content_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-width:515px;
+	height: 100%;
+	min-height:700px;
+	margin: auto;
+	background-color: #ccc;
+	border-radius:0px;
+	}
+	#logo_big {
+		width:100%;
+	}
+
+
+}
